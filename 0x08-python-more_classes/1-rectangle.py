@@ -11,8 +11,8 @@ class Rectangle:
     floating-point values.
     
     Attributes:
-    - _width (int): the width of the rectangle
-    - _height (int): the height of the rectangle
+    - __width (int): the width of the rectangle
+    - __height (int): the height of the rectangle
     """
     
     def __init__(self, width=0, height=0):
@@ -28,7 +28,7 @@ class Rectangle:
         """
         Retrieves the value of the width attribute.
         """
-        return self._width
+        return self.__width
     
     @width.setter
     def width(self, value):
@@ -43,7 +43,7 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         else:
-            self._width = value
+            self.__width = value
     
     @property
     def height(self):
@@ -65,4 +65,4 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         else:
-            self._height = value
+            self.__height = value
