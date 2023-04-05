@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# 7-rectangle.py
-#Kelai137 of ALX
 
 """defines a rectangle class"""
 
