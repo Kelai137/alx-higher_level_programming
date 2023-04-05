@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-#1-rectangle.py
-#Kelai137 of ALX
+"""contains class rectangle
+with private attribute of width and height
+"""
 
 class Rectangle:
     """
