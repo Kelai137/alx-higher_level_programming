@@ -2,6 +2,7 @@
 """defines a rectangle class"""
 
 class Rectangle:
+    """representation of a rectangle"""
 
     def __init__(self, width=0, height=0):
         """initialises a new rectangle.
