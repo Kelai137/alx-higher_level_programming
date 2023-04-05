@@ -1,12 +1,9 @@
 #!/usr/bin/python3
 """
-This module deines an empty class rectangle
-by Kelai137
+Defines an empty class Rectangle
 
 """
 
 class Rectangle:
-    """
-    Empty class Rectangle that defines a rectangle.
-    """
+    """Empty class Rectangle that defines a rectangle."""
     pass
