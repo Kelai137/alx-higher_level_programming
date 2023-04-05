@@ -3,11 +3,10 @@
 """defines a rectangle class"""
 
 class Rectangle:
-     """Represent a rectangle.
+    """Represent a rectangle.
     Attributes:
         number_of_instances (int): The number of Rectangle instances.
     """
-
     number_of_instances = 0
 
     def __init__(self, width=0, height=0):
@@ -45,7 +44,7 @@ class Rectangle:
 
     @property
     def width(self):
-        """set the width of the Rectangle."""
+        """Get/set the width of the Rectangle."""
         return self.__width
 
     @width.setter
